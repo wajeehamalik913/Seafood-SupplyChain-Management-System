@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.App">
+        <activity android:name=".Update"></activity>
+        <activity android:name=".DiveIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Splash" />
+        <activity android:name=".TypeInventory" />
+        <activity android:name=".DisInventory" />
+        <activity android:name=".ResOrder" />
+        <activity android:name=".ExtInventory" />
+        <activity android:name=".ViewDisSeafood" />
+        <activity android:name=".Extractor" />
+        <activity android:name=".SeafoodApp" />
+        <activity android:name=".GetOrder" />
+        <activity android:name=".AddExtractor" />
+        <activity android:name=".DisProfile" />
+        <activity android:name=".Distributor" />
+        <activity android:name=".ResProfile" />
+        <activity android:name=".OrderSeafood" />
+        <activity android:name=".Inventory" />
+        <activity android:name=".TrackOrder" />
+        <activity android:name=".AddDistributor" />
+        <activity android:name=".ViewSeafood" />
+        <activity android:name=".ViewProfile" />
+        <activity android:name=".AddSeafood" />
+        <activity android:name=".Register" />
+        <activity android:name=".Login" />
+        <activity android:name=".Restaurant" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
